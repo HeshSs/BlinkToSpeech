@@ -29,7 +29,7 @@ public class TypeActivity extends AppCompatActivity {
         defg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openDEFG();
+                gotoDEFG();
             }
         });
     }
@@ -38,8 +38,8 @@ public class TypeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openDEFG() {
-        Intent intent = new Intent(this, _abcButtons.class);
+    public void gotoDEFG() {
+        Intent intent = new Intent(this, defgActivity.class);
         startActivity(intent);
     }
 

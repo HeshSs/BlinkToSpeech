@@ -2,83 +2,80 @@ package com.hishmat.deltahacks2;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class _abcButtons extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class defgButtons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__abc_buttons);
+        setContentView(R.layout.activity_defg_buttons);
 
 
-        Button space = findViewById(R.id.button1);
-        space.setOnClickListener(new View.OnClickListener() {
+        Button d = findViewById(R.id.button2);
+        d.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText(" ");
+                    textView.setText("D");
+                } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
+                    textView.setText(textView.getText() + "D");
                 } else {
-                    textView.setText(textView.getText() + " ");
+                    textView.setText(textView.getText() + "d");
                 }
             }
         });
 
-        Button a = findViewById(R.id.button2);
-        a.setOnClickListener(new View.OnClickListener() {
+        Button e = findViewById(R.id.button2);
+        e.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("A");
+                    textView.setText("E");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "A");
+                    textView.setText(textView.getText() + "E");
                 } else {
-                    textView.setText(textView.getText() + "a");
+                    textView.setText(textView.getText() + "e");
                 }
             }
         });
 
-        Button b = findViewById(R.id.button3);
-        b.setOnClickListener(new View.OnClickListener() {
+        Button f = findViewById(R.id.button3);
+        f.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("B");
+                    textView.setText("F");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "B");
+                    textView.setText(textView.getText() + "F");
                 } else {
-                    textView.setText(textView.getText() + "b");
+                    textView.setText(textView.getText() + "f");
                 }
             }
         });
 
-        Button c = findViewById(R.id.button4);
-        c.setOnClickListener(new View.OnClickListener() {
+        Button g = findViewById(R.id.button4);
+        g.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("C");
+                    textView.setText("G");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "C");
+                    textView.setText(textView.getText() + "G");
                 } else {
-                    textView.setText(textView.getText() + "c");
+                    textView.setText(textView.getText() + "G");
                 }
             }
         });

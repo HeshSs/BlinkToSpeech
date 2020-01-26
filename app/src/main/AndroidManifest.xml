@@ -13,6 +13,10 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".defgActivity"
+            android:label="@string/title_activity_defg"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
             android:name="._abcButtons"
             android:label="@string/title_activity__abc_buttons"
             android:theme="@style/NoActionBar" />

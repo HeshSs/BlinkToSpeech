@@ -44,8 +44,7 @@
     <string name="X">X</string>
     <string name="Y">Y</string>
     <string name="Z">Z</string>
-
-
+    <string name="title_activity_defg">defgActivity</string>
 
 
 </resources>

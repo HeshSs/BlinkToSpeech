@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".TypeActivity"
-    tools:showIn="@layout/activity_type">
+    tools:context=".defgActivity"
+    tools:showIn="@layout/activity_defg">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TypeActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".defgAndHijk"
+    tools:showIn="@layout/activity_defg_and_hijk">
 
     <TextView
         android:id="@+id/typeText"
@@ -31,19 +33,19 @@
         tools:ignore="UnknownIdInLayout">
 
         <Button
-            android:id="@+id/button_ABC"
+            android:id="@+id/buttonDEFG"
             android:layout_width="360dp"
             android:layout_height="330dp"
-            android:text="@string/_abc"
+            android:text="@string/defg"
             android:textSize="36sp"
             app:layout_column="0"
             app:layout_row="1" />
 
         <Button
-            android:id="@+id/buttonGotoDEFG"
+            android:id="@+id/buttonHIJK"
             android:layout_width="360dp"
             android:layout_height="330dp"
-            android:text="@string/defg"
+            android:text="@string/hijk"
             android:textSize="36sp"
             app:layout_column="2"
             app:layout_row="1" />

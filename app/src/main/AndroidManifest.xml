@@ -15,7 +15,7 @@
         <activity
             android:name=".defgActivity"
             android:label="@string/title_activity_defg"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity
             android:name="._abcButtons"
             android:label="@string/title_activity__abc_buttons"

@@ -7,7 +7,7 @@
     tools:context=".TypeActivity">
 
     <TextView
-        android:id="@+id/inputText"
+        android:id="@+id/typeText"
         android:layout_width="669dp"
         android:layout_height="49dp"
         android:layout_marginStart="53dp"

@@ -8,15 +8,17 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class TypeActivity extends AppCompatActivity {
-
+    public static TextView textView = MainActivity.getInputText();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_type);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        TextView inputText = findViewById(R.id.typeText);
+        inputText.setText(MainActivity.inputText.getText());
 
         Button _abc = findViewById(R.id.button1);
         _abc.setOnClickListener(new View.OnClickListener() {
@@ -36,11 +38,13 @@ public class TypeActivity extends AppCompatActivity {
     public void open_ABC() {
         Intent intent = new Intent(this, _abcButtons.class);
         startActivity(intent);
+        finish();
     }
 
     public void gotoDEFG() {
         Intent intent = new Intent(this, defgActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }

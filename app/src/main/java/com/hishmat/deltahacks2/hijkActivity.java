@@ -13,7 +13,7 @@ public class hijkActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_defg);
+        setContentView(R.layout.activity_defg_buttons);
 
         TextView inputText = findViewById(R.id.typeText);
         inputText.setText(MainActivity.inputText.getText());

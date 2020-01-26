@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hishmat.deltahacks2"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name="com.hishmat.deltahacks2.defgButtons"
+            android:label="@string/title_activity_defg"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hishmat.deltahacks2._abcButtons"
+            android:label="@string/title_activity__abc_buttons"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="com.hishmat.deltahacks2.CommandsActivity"
+            android:label="@string/title_activity_commands"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hishmat.deltahacks2.TypeActivity"
+            android:label="@string/title_activity_type"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.hishmat.deltahacks2.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hishmat.deltahacks2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:6:5-38:19
+12        android:allowBackup="true"
+12-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Hishmat\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:10:9-54
+18        android:screenOrientation="landscape"
+18-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:11:9-46
+19        android:supportsRtl="true"
+19-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/Theme.AppCompat.NoActionBar" >
+20-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:14:9-59
+21        <activity
+21-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:15:9-18:50
+22            android:name="com.hishmat.deltahacks2.defgButtons"
+22-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:16:13-40
+23            android:label="@string/title_activity_defg"
+23-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:17:13-56
+24            android:theme="@style/NoActionBar" />
+24-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:18:13-47
+25        <activity
+25-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:19:9-22:50
+26            android:name="com.hishmat.deltahacks2._abcButtons"
+26-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:20:13-40
+27            android:label="@string/title_activity__abc_buttons"
+27-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:21:13-64
+28            android:theme="@style/NoActionBar" />
+28-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:22:13-47
+29        <activity
+29-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:23:9-26:59
+30            android:name="com.hishmat.deltahacks2.CommandsActivity"
+30-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:24:13-45
+31            android:label="@string/title_activity_commands"
+31-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:25:13-60
+32            android:theme="@style/AppTheme.NoActionBar" />
+32-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:26:13-56
+33        <activity
+33-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:27:9-30:59
+34            android:name="com.hishmat.deltahacks2.TypeActivity"
+34-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:28:13-41
+35            android:label="@string/title_activity_type"
+35-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:29:13-56
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:30:13-56
+37        <activity android:name="com.hishmat.deltahacks2.MainActivity" >
+37-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:31:9-37:20
+37-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:31:19-47
+38            <intent-filter>
+38-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:32:13-36:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:33:17-69
+39-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:33:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:35:17-77
+41-->C:\Users\Hishmat\AndroidStudioProjects\deltahacks2\app\src\main\AndroidManifest.xml:35:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

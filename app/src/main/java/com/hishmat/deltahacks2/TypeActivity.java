@@ -41,7 +41,7 @@ public class TypeActivity extends AppCompatActivity {
     }
 
     public void gotoDEFG() {
-        Intent intent = new Intent(this, defgActivity.class);
+        Intent intent = new Intent(this, defgButtons.class);
         startActivity(intent);
         finish();
     }

@@ -15,7 +15,7 @@ public class defgButtons extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_defg_buttons);
 
-        TextView inputText = findViewById(R.id.defgText);
+        final TextView inputText = findViewById(R.id.defgText);
         inputText.setText(MainActivity.inputText.getText());
 
         Button d = findViewById(R.id.buttonD);
@@ -23,7 +23,7 @@ public class defgButtons extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                TextView textView = findViewById(R.id.inputText);
+                TextView textView = inputText;
                 if (textView.getText().equals("input")) {
                     textView.setText("D");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
@@ -31,6 +31,8 @@ public class defgButtons extends AppCompatActivity {
                 } else {
                     textView.setText(textView.getText() + "d");
                 }
+                MainActivity.inputText.setText(textView.getText());
+                finish();
             }
         });
 
@@ -39,7 +41,7 @@ public class defgButtons extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                TextView textView = findViewById(R.id.inputText);
+                TextView textView = inputText;
                 if (textView.getText().equals("input")) {
                     textView.setText("E");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
@@ -47,6 +49,8 @@ public class defgButtons extends AppCompatActivity {
                 } else {
                     textView.setText(textView.getText() + "e");
                 }
+                MainActivity.inputText.setText(textView.getText());
+                finish();
             }
         });
 
@@ -55,7 +59,7 @@ public class defgButtons extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                TextView textView = findViewById(R.id.inputText);
+                TextView textView = inputText;
                 if (textView.getText().equals("input")) {
                     textView.setText("F");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
@@ -63,6 +67,8 @@ public class defgButtons extends AppCompatActivity {
                 } else {
                     textView.setText(textView.getText() + "f");
                 }
+                MainActivity.inputText.setText(textView.getText());
+                finish();
             }
         });
 
@@ -71,7 +77,7 @@ public class defgButtons extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
-                TextView textView = findViewById(R.id.inputText);
+                TextView textView = inputText;
                 if (textView.getText().equals("input")) {
                     textView.setText("G");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
@@ -79,6 +85,8 @@ public class defgButtons extends AppCompatActivity {
                 } else {
                     textView.setText(textView.getText() + "g");
                 }
+                MainActivity.inputText.setText(textView.getText());
+                finish();
             }
         });
     }

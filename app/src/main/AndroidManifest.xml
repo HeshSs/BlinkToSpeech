@@ -10,10 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:screenOrientation="landscape"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".defgActivity"
+            android:name=".defgButtons"
             android:label="@string/title_activity_defg"
             android:theme="@style/NoActionBar" />
         <activity

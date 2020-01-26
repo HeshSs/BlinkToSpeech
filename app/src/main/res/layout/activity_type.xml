@@ -32,7 +32,7 @@
 
         <Button
             android:id="@+id/button_ABC"
-            android:layout_width="360dp"
+            android:layout_width="353dp"
             android:layout_height="330dp"
             android:text="@string/_abc"
             android:textSize="36sp"
@@ -41,7 +41,7 @@
 
         <Button
             android:id="@+id/buttonGotoDEFG"
-            android:layout_width="360dp"
+            android:layout_width="346dp"
             android:layout_height="330dp"
             android:text="@string/defg"
             android:textSize="36sp"

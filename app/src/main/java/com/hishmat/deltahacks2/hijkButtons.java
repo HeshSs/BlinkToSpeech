@@ -8,76 +8,74 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class defgButtons extends AppCompatActivity {
+public class hijkButtons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_defg_buttons);
 
-        TextView inputText = findViewById(R.id.defgText);
-        inputText.setText(MainActivity.inputText.getText());
 
-        Button d = findViewById(R.id.buttonD);
-        d.setOnClickListener(new View.OnClickListener() {
+        Button h = findViewById(R.id.buttonH);
+        h.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("D");
+                    textView.setText("H");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "D");
+                    textView.setText(textView.getText() + "H");
                 } else {
-                    textView.setText(textView.getText() + "d");
+                    textView.setText(textView.getText() + "h");
                 }
             }
         });
 
-        Button e = findViewById(R.id.buttonE);
-        e.setOnClickListener(new View.OnClickListener() {
+        Button i = findViewById(R.id.buttonI);
+        i.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("E");
+                    textView.setText("I");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "E");
+                    textView.setText(textView.getText() + "I");
                 } else {
-                    textView.setText(textView.getText() + "e");
+                    textView.setText(textView.getText() + "i");
                 }
             }
         });
 
-        Button f = findViewById(R.id.buttonF);
-        f.setOnClickListener(new View.OnClickListener() {
+        Button j = findViewById(R.id.buttonJ);
+        j.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("F");
+                    textView.setText("J");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "F");
+                    textView.setText(textView.getText() + "J");
                 } else {
-                    textView.setText(textView.getText() + "f");
+                    textView.setText(textView.getText() + "j");
                 }
             }
         });
 
-        Button g = findViewById(R.id.buttonG);
-        g.setOnClickListener(new View.OnClickListener() {
+        Button k = findViewById(R.id.buttonK);
+        k.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
                 TextView textView = findViewById(R.id.inputText);
                 if (textView.getText().equals("input")) {
-                    textView.setText("G");
+                    textView.setText("K");
                 } else if (textView.getText().charAt(textView.getText().length()-1) == ' ') {
-                    textView.setText(textView.getText() + "G");
+                    textView.setText(textView.getText() + "K");
                 } else {
-                    textView.setText(textView.getText() + "g");
+                    textView.setText(textView.getText() + "k");
                 }
             }
         });

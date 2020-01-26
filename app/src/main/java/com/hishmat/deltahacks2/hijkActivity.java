@@ -2,46 +2,45 @@ package com.hishmat.deltahacks2;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class TypeActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class hijkActivity extends AppCompatActivity {
+    public static TextView textView = MainActivity.inputText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_type);
+        setContentView(R.layout.activity_defg);
 
         TextView inputText = findViewById(R.id.typeText);
         inputText.setText(MainActivity.inputText.getText());
 
-        Button _abc = findViewById(R.id.button_ABC);
-        _abc.setOnClickListener(new View.OnClickListener() {
+        Button hijk = findViewById(R.id.buttonHIJK);
+        hijk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                open_ABC();
+                openHIJK();
             }
         });
-        Button defg = findViewById(R.id.buttonGotoDEFG);
-        defg.setOnClickListener(new View.OnClickListener() {
+        Button lmno = findViewById(R.id.buttonLMNO);
+        lmno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                gotoDEFG();
+                gotoLMNO();
             }
         });
     }
-    public void open_ABC() {
-        Intent intent = new Intent(this, _abcButtons.class);
+    public void openHIJK() {
+        Intent intent = new Intent(this, hijkButtons.class);
         startActivity(intent);
         finish();
     }
 
-    public void gotoDEFG() {
-        Intent intent = new Intent(this, defgActivity.class);
+    public void gotoLMNO() {
+        Intent intent = new Intent(this, /*lmnoActivity*/hijkButtons.class);
         startActivity(intent);
         finish();
     }

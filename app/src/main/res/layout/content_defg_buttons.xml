@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".defgButtons">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".defgButtons"
+    tools:showIn="@layout/activity_defg_buttons">
 
     <TextView
-        android:id="@+id/inputText"
+        android:id="@+id/defgText"
         android:layout_width="669dp"
         android:layout_height="49dp"
         android:layout_marginStart="53dp"
@@ -30,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/buttonD"
             android:layout_width="360dp"
             android:layout_height="154dp"
             android:text="@string/D"
@@ -39,16 +41,16 @@
             app:layout_row="1" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="353dp"
-            android:layout_height="151dp"
+            android:id="@+id/buttonE"
+            android:layout_width="360dp"
+            android:layout_height="154dp"
             android:text="@string/E"
             android:textSize="36sp"
             app:layout_column="1"
             app:layout_row="1" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonF"
             android:layout_width="360dp"
             android:layout_height="154dp"
             android:text="@string/F"
@@ -57,7 +59,7 @@
             app:layout_row="2" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonG"
             android:layout_width="360dp"
             android:layout_height="154dp"
             android:text="@string/G"

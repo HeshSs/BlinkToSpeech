@@ -20,7 +20,7 @@ public class _abcButtons extends AppCompatActivity {
         TextView inputText = findViewById(R.id._abcText);
         inputText.setText(MainActivity.inputText.getText());
 
-        Button space = findViewById(R.id.button1);
+        Button space = findViewById(R.id.buttonSpace);
         space.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
@@ -35,7 +35,7 @@ public class _abcButtons extends AppCompatActivity {
             }
         });
 
-        Button a = findViewById(R.id.button2);
+        Button a = findViewById(R.id.buttonA);
         a.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
